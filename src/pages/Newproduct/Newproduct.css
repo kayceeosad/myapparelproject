@@ -1,0 +1,63 @@
+
+
+.container{
+    /* background-color: cyan; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3`0px;
+    padding-bottom: 40px;
+}
+
+
+.tileholder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+    h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+
+
+.buttonholder{
+    display: flex;
+    
+    gap: 20px;
+
+}
+
+.button_active{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-bottom: 2px solid red; 
+}
+
+.buttonss{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.container_two{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    
+    flex-direction: column;
+}
+
+.cardholder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
